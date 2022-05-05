@@ -1,0 +1,40 @@
+body{
+    background-color: #ede7f6;
+    font-family: 'Roboto','Helvetica',sans-serif;
+    width: 500px;
+    margin: auto;
+    
+
+}
+#main{
+    width: 500px;
+    margin: auto;
+    
+}
+.box{
+    border:1px solid rgb(210,208,218);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    width: 50%;
+    height: 60px;
+}
+#title{
+    border:1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    width: 80%;
+    height: 100px;
+    border-top: 5px solid gray
+    
+    
+    
+}
+
+#submit{
+    background-color: gray;
+    color: white;
+}

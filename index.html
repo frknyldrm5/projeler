@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+   <div id="main" class="box">
+       <div id="title" class="box"> 
+           <h2>Google Form Sample</h2>
+           <p>Here are all of the questions types</p>
+           <hr>
+    
+    
+       </div>
+
+       <div id="name" class="box">
+           <label for="name">What's is your name?</label>
+           <br>
+           <input type=" text" name="name" id="name" placeholder="Your name-Surname">
+       </div>
+<br>
+       <div id="email" class="box">
+           <label for="mail">Whats is your mail adress?</label>
+           <br>
+           <input type="email" name="email" id="mail">
+
+       </div>
+<br>
+       <div id="password" class="box">
+           <label for="password">Your password?</label>
+           <br>
+           <input type="password" name="sifre" id="password">
+
+       </div>
+<br>
+       <div id="gender" class="box">
+        <label for="gender">What's your gender?</label>
+        <br>
+        <label for="Male">Male</label>
+        <input type="radio" name="cinsiyet" id="Male">
+        <label for="Female">Female</label>
+        <input type="radio" name="cinsiyet" id="Female">
+        <label for="other">other</label>
+        <input type="radio" name="cinsiyet" id="other">
+
+       </div>
+<br>
+
+       <div id="language" class="box">
+           <label for="language">Which language do you know</label>
+           <br>
+           <label for="language">English</label>
+           <input type="checkbox" name="language" id="English">
+           <label for="language">Dutch</label>
+           <input type="checkbox" name="language" id="Dutch">
+           <label for="language">French</label>
+           <input type="checkbox" name="language" id="French">
+
+       </div>
+<br>
+
+       <div id="age" class="box">
+           <label for="age">How old are you?</label>
+           <br>
+           <input type="number" name="age" id="age" placeholder="enter your age">
+       </div>
+<br>
+       <div id="birthday" class="box">
+           <label for="birthday">What's is your birthday?</label>
+           <br>
+           <input type="date" name="birthday" id="birthday">
+        </div>
+<br>
+<div id="country" class="box">
+    <label for="country">Where did you born?</label>
+    <br>
+    <select name="country" id="country">
+        <option value="Turkey">Turkey</option>
+        <option value="Belgium">Belgium</option>
+        <option value="England">England</option>
+    </select>
+    
+</div>
+
+<br>       
+   <div id="comment" class="box">
+       <textarea name="comments" id="comments" cols="20" rows="5" placeholder="Your comments..."></textarea>
+   </div>
+<br>
+    
+<input type="submit" value="submit" id="submit">
+
+
+    
+</body>
+</html>
