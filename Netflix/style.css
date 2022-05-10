@@ -1,0 +1,37 @@
+body{
+    position: relative;
+    width: 1440px;
+    height: 1096px;
+    background: #FFFFFF;
+
+    background-image: url(./survey-form/background_image.jpg);
+
+}
+
+#container{
+    border: 1px solid;
+    margin: 15px 30px ;
+    background-color: rgb(0, 0, 0,0.2);
+
+    position: absolute;
+    width: 1240px;
+    height: 1036px;
+    left: ;
+
+}
+
+#title{
+
+ text-align: center;
+ color: white;
+font-size: 20px;
+}
+span{
+    color: red;
+}
+#description{
+    text-align: center;
+}
+#survey-form{
+    padding-left: 800px;
+}
