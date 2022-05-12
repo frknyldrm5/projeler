@@ -1,0 +1,21 @@
+body{
+    background-color: rgba(0, 0,0, 0.8);
+
+}
+main{
+    border: purple solid 2px;
+    color: palevioletred;
+}
+img{
+    width: 30vw;
+    height: 15vh;
+    float: left;
+    margin-right: 2em;
+}
+header{
+    margin-top: -1.1rem;
+}
+article{
+    text-align: justify;
+    
+}
